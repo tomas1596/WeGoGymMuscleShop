@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WE GO GYM MUSCLE SHOP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/assets/index-Dly2Zs-2.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BroMGIHE.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#inicio">WE GO GYM MUSCLE SHOP</a>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Productos ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#productos" data-category="pre-entreno">Pre Entreno</a></li>
+                        <li><a href="#productos" data-category="creatina">Creatina</a></li>
+                        <li><a href="#productos" data-category="proteina">Proteína</a></li>
+                    </ul>
+                </li>
+                <li><a href="#quienes-somos" class="nav-link">Quiénes Somos</a></li>
+            </ul>
+
+            <div class="cart-icon" id="cartIcon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+                <span class="cart-count" id="cartCount">0</span>
+            </div>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">WE GO GYM MUSCLE SHOP</h1>
+            <p class="hero-subtitle">Potenciá tu rendimiento. Alcanzá tu mejor versión.</p>
+            <a href="#productos" class="btn btn-primary">Ver Productos</a>
+        </div>
+    </section>
+
+    <!-- Productos Destacados -->
+    <section class="featured-products">
+        <div class="container">
+            <h2 class="section-title">Productos Destacados</h2>
+            <div class="products-grid" id="featuredProducts">
+                <!-- Se llenan con JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Productos -->
+    <section id="productos" class="productos-section">
+        <div class="container">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <div class="category-filter">
+                <button class="filter-btn active" data-filter="todos">Todos</button>
+                <button class="filter-btn" data-filter="pre-entreno">Pre Entreno</button>
+                <button class="filter-btn" data-filter="creatina">Creatina</button>
+                <button class="filter-btn" data-filter="proteina">Proteína</button>
+            </div>
+            <div class="products-grid" id="productsContainer">
+                <!-- Se llenan con JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiénes Somos -->
+    <section id="quienes-somos" class="about-section">
+        <div class="container">
+            <h2 class="section-title">Quiénes Somos</h2>
+            <div class="about-content">
+                <p>
+                    <strong>WE GO GYM MUSCLE SHOP</strong> es una tienda online especializada en suplementos deportivos de alta calidad,
+                    diseñada para acompañarte en tu camino hacia el mejor rendimiento físico.
+                </p>
+                <p>
+                    Nuestro objetivo es proporcionar productos que te ayuden a alcanzar tus metas deportivas,
+                    ya sea que busques aumentar tu masa muscular, mejorar tu resistencia o simplemente mantener
+                    un estilo de vida saludable y activo.
+                </p>
+                <p>
+                    Ofrecemos una amplia selección de suplementos, desde pre-entrenamientos que te darán la energía
+                    necesaria para tus sesiones más intensas, hasta proteínas de alta calidad para optimizar tu recuperación
+                    y crecimiento muscular, pasando por creatinas que potenciarán tu fuerza y rendimiento.
+                </p>
+                <p>
+                    <strong>Este proyecto fue desarrollado como trabajo académico</strong> de la carrera de Análisis de Sistemas,
+                    con el propósito de demostrar la aplicación práctica de tecnologías web modernas (HTML, CSS y JavaScript)
+                    en el desarrollo de una plataforma de e-commerce funcional y responsive.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>WE GO GYM MUSCLE SHOP</h3>
+                    <p>Tu tienda de confianza para suplementos deportivos</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>Email: tomaspana06@hotmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Seguinos en nuestras redes</h4>
+                    <div class="social-icons">
+                        <a href="/" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="/" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="/" aria-label="Twitter">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 WE GO GYM MUSCLE SHOP. | Proyecto Final - Análisis de Sistemas - Tomás Panadeiro</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h2>Carrito de Compras</h2>
+                <button class="close-cart" id="closeCart">&times;</button>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <!-- Se llena dinámicamente -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span id="cartTotal">$0</span>
+                </div>
+                <button class="btn btn-primary btn-block" id="continueCheckout">Continuar Compra</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div class="cart-modal" id="checkoutModal">
+        <div class="cart-content checkout-content">
+            <div class="cart-header">
+                <h2>Finalizar Compra</h2>
+                <button class="close-cart" id="closeCheckout">&times;</button>
+            </div>
+            <div class="checkout-body">
+                <form id="checkoutForm">
+                    <h3 class="checkout-section-title">Datos de Envío</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">Nombre *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Apellido *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Dirección *</label>
+                        <input type="text" id="address" name="address" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="city">Ciudad *</label>
+                            <input type="text" id="city" name="city" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="postalCode">Código Postal *</label>
+                            <input type="text" id="postalCode" name="postalCode" required>
+                        </div>
+                    </div>
+
+                    <h3 class="checkout-section-title">Método de Pago</h3>
+                    <div class="payment-methods">
+                        <label class="payment-option">
+                            <input type="radio" name="paymentMethod" value="card" checked>
+                            <span>Tarjeta de Crédito/Débito</span>
+                        </label>
+                        <label class="payment-option">
+                            <input type="radio" name="paymentMethod" value="mercadopago">
+                            <span>MercadoPago</span>
+                        </label>
+                    </div>
+
+                    <div id="cardDetails" class="card-details">
+                        <div class="form-group">
+                            <label for="cardNumber">Número de Tarjeta</label>
+                            <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456" maxlength="19">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="cardExpiry">Fecha de Vencimiento</label>
+                                <input type="text" id="cardExpiry" placeholder="MM/AA" maxlength="5">
+                            </div>
+                            <div class="form-group">
+                                <label for="cardCvv">CVV</label>
+                                <input type="text" id="cardCvv" placeholder="123" maxlength="3">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="checkout-summary">
+                        <h3 class="checkout-section-title">Resumen del Pedido</h3>
+                        <div id="checkoutItems"></div>
+                        <div class="checkout-total">
+                            <span>Total:</span>
+                            <span id="checkoutTotal">$0</span>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">Generar Pedido</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Order Confirmation Modal -->
+    <div class="cart-modal" id="confirmationModal">
+        <div class="cart-content confirmation-content">
+            <div class="confirmation-body">
+                <div class="confirmation-icon">✓</div>
+                <h2>¡Tu pedido fue generado correctamente!</h2>
+                <div class="order-id">Pedido: <span id="orderId"></span></div>
+
+                <div class="confirmation-details">
+                    <h3>Datos de Envío</h3>
+                    <div id="confirmationShipping"></div>
+
+                    <h3>Productos</h3>
+                    <div id="confirmationItems"></div>
+
+                    <h3>Método de Pago</h3>
+                    <div id="confirmationPayment"></div>
+
+                    <div class="confirmation-total">
+                        <span>Total:</span>
+                        <span id="confirmationTotal">$0</span>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary btn-block" id="continueShopping">Seguir Comprando</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
