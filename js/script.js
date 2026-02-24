@@ -5,7 +5,7 @@ const products = [
         category: "pre-entreno",
         price: 8500,
         description: "Pre entreno explosivo con cafeína y beta-alanina para máxima energía",
-        image: "/img/PRE/C4.jpg"
+        image: "/public/img/PRE/C4.jpg"
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ const products = [
         category: "pre-entreno",
         price: 9200,
         description: "Energía y enfoque para entrenamientos intensos",
-        image: "/img/PRE/ENA.jpg"
+        image: "/public/img/PRE/ENA.jpg"
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ const products = [
         category: "pre-entreno",
         price: 10500,
         description: "Explosión de energía y potencia para cada sesión",
-        image: "/img/PRE/TNT.jpg"
+        image: "/public/img/PRE/TNT.jpg"
     },
     {
         id: 4,
@@ -29,7 +29,7 @@ const products = [
         category: "pre-entreno",
         price: 9800,
         description: "Bombeo muscular y concentración máxima para cada entrenamiento",
-        image: "/img/PRE/V8.jpg"
+        image: "/public/img/PRE/V8.jpg"
     },
     {
     id: 5,
@@ -37,7 +37,7 @@ const products = [
     category: "creatina",
     price: 5500,
     description: "Creatina monohidratada para aumentar fuerza y rendimiento",
-    image: "/img/CREATINA/ENAA.jpg"
+    image: "/public/img/CREATINA/ENAA.jpg"
     },
     {
     id: 6,
@@ -45,7 +45,7 @@ const products = [
     category: "creatina",
     price: 7200,
     description: "Creatina de alta pureza para mejorar potencia muscular",
-    image: "/img/CREATINA/GOLD.jpg"
+    image: "/public/img/CREATINA/GOLD.jpg"
     },
     {
     id: 7,
@@ -53,7 +53,7 @@ const products = [
     category: "creatina",
     price: 6800,
     description: "Fórmula concentrada para fuerza y volumen muscular",
-    image: "/img/CREATINA/HARDCORE.jpg"
+    image: "/public/img/CREATINA/HARDCORE.jpg"
     },
     {
     id: 8,
@@ -61,7 +61,7 @@ const products = [
     category: "creatina",
     price: 8900,
     description: "Creatina micronizada para mejor absorción y rendimiento",
-    image: "/img/CREATINA/STAR.jpg"
+    image: "/public/img/CREATINA/STAR.jpg"
     },
     {
     id: 9,
@@ -69,7 +69,7 @@ const products = [
     category: "proteina",
     price: 12500,
     description: "Proteína de suero sabor chocolate para recuperación muscular",
-    image: "/img/PROTEINA/ENAPROTE.jpg"
+    image: "/public/img/PROTEINA/ENAPROTE.jpg"
     },
     {
     id: 10,
@@ -77,7 +77,7 @@ const products = [
     category: "proteina",
     price: 14200,
     description: "Proteína de alta calidad para aumentar masa muscular",
-    image: "/img/PROTEINA/ENASPORTPROTE.jpg"
+    image: "/public/img/PROTEINA/ENASPORTPROTE.jpg"
     },
     {
     id: 11,
@@ -85,7 +85,7 @@ const products = [
     category: "proteina",
     price: 11800,
     description: "Proteína vegetal ideal para fuerza y recuperación",
-    image: "/img/PROTEINA/PULVERPROTE.jpg"
+    image: "/public/img/PROTEINA/PULVERPROTE.jpg"
     },
     {
     id: 12,
@@ -93,7 +93,7 @@ const products = [
     category: "proteina",
     price: 10900,
     description: "Proteína de suero para mejorar rendimiento y masa muscular",
-    image: "/img/PROTEINA/STARPROTE.jpg"
+    image: "/public/img/PROTEINA/STARPROTE.jpg"
 }
 ];
 
