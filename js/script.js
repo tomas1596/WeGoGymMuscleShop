@@ -1,100 +1,100 @@
 const products = [
     {
         id: 1,
-        name: "C4 Original Pre-Workout",
+        name: "C4 Pre Entreno",
         category: "pre-entreno",
         price: 8500,
         description: "Pre entreno explosivo con cafeína y beta-alanina para máxima energía",
-        image: "https://images.pexels.com/photos/4058224/pexels-photo-4058224.jpeg?auto=compress&cs=tinysrgb&w=400"
+        image: "/img/PRE/C4.jpg"
     },
     {
         id: 2,
-        name: "NO-Xplode Pre-Workout",
+        name: "Pre War Ena Sport",
         category: "pre-entreno",
         price: 9200,
-        description: "Fórmula avanzada con óxido nítrico para bombeo muscular intenso",
-        image: "https://images.pexels.com/photos/4058271/pexels-photo-4058271.jpeg?auto=compress&cs=tinysrgb&w=400"
+        description: "Energía y enfoque para entrenamientos intensos",
+        image: "/img/PRE/ENA.jpg"
     },
     {
         id: 3,
-        name: "Pre-Jym Pre-Workout",
+        name: "Pre Entreno TNT",
         category: "pre-entreno",
         price: 10500,
-        description: "Pre entreno premium con ingredientes clínicamente dosificados",
-        image: "https://images.pexels.com/photos/3766211/pexels-photo-3766211.jpeg?auto=compress&cs=tinysrgb&w=400"
+        description: "Explosión de energía y potencia para cada sesión",
+        image: "/img/PRE/TNT.jpg"
     },
     {
         id: 4,
-        name: "Legion Pulse Pre-Workout",
+        name: "Pre Entreno V8",
         category: "pre-entreno",
         price: 9800,
-        description: "Pre entreno natural sin colorantes ni saborizantes artificiales",
-        image: "https://images.pexels.com/photos/4058413/pexels-photo-4058413.jpeg?auto=compress&cs=tinysrgb&w=400"
+        description: "Bombeo muscular y concentración máxima para cada entrenamiento",
+        image: "/img/PRE/V8.jpg"
     },
     {
-        id: 5,
-        name: "Creatina Monohidratada Pura",
-        category: "creatina",
-        price: 5500,
-        description: "Creatina monohidrato micronizada 100% pura para máxima absorción",
-        image: "https://images.pexels.com/photos/6550835/pexels-photo-6550835.jpeg?auto=compress&cs=tinysrgb&w=400"
+    id: 5,
+    name: "Creatina Ena Sport",
+    category: "creatina",
+    price: 5500,
+    description: "Creatina monohidratada para aumentar fuerza y rendimiento",
+    image: "/img/CREATINA/ENAA.jpg"
     },
     {
-        id: 6,
-        name: "Creatine HCL",
-        category: "creatina",
-        price: 7200,
-        description: "Clorhidrato de creatina de alta biodisponibilidad sin retención de líquidos",
-        image: "https://images.pexels.com/photos/7699388/pexels-photo-7699388.jpeg?auto=compress&cs=tinysrgb&w=400"
+    id: 6,
+    name: "Creatina Gold",
+    category: "creatina",
+    price: 7200,
+    description: "Creatina de alta pureza para mejorar potencia muscular",
+    image: "/img/CREATINA/GOLD.jpg"
     },
     {
-        id: 7,
-        name: "Kre-Alkalyn Creatina",
-        category: "creatina",
-        price: 6800,
-        description: "Creatina con pH ajustado para mejor estabilidad y absorción",
-        image: "https://images.pexels.com/photos/4058106/pexels-photo-4058106.jpeg?auto=compress&cs=tinysrgb&w=400"
+    id: 7,
+    name: "Creatina Hardcore",
+    category: "creatina",
+    price: 6800,
+    description: "Fórmula concentrada para fuerza y volumen muscular",
+    image: "/img/CREATINA/HARDCORE.jpg"
     },
     {
-        id: 8,
-        name: "Creatina + Glutamina",
-        category: "creatina",
-        price: 8900,
-        description: "Combinación perfecta de creatina y glutamina para recuperación y fuerza",
-        image: "https://images.pexels.com/photos/6550831/pexels-photo-6550831.jpeg?auto=compress&cs=tinysrgb&w=400"
+    id: 8,
+    name: "Creatina Star Nutrition",
+    category: "creatina",
+    price: 8900,
+    description: "Creatina micronizada para mejor absorción y rendimiento",
+    image: "/img/CREATINA/STAR.jpg"
     },
     {
-        id: 9,
-        name: "Whey Protein Gold Standard",
-        category: "proteina",
-        price: 12500,
-        description: "Proteína de suero aislada de rápida absorción, ideal post-entrenamiento",
-        image: "https://images.pexels.com/photos/4058144/pexels-photo-4058144.jpeg?auto=compress&cs=tinysrgb&w=400"
+    id: 9,
+    name: "Proteína ENA Chocolate",
+    category: "proteina",
+    price: 12500,
+    description: "Proteína de suero sabor chocolate para recuperación muscular",
+    image: "/img/PROTEINA/ENAPROTE.jpg"
     },
     {
-        id: 10,
-        name: "Isolate Protein Pro",
-        category: "proteina",
-        price: 14200,
-        description: "Proteína aislada 95% pura, sin lactosa y bajo en carbohidratos",
-        image: "https://images.pexels.com/photos/4058219/pexels-photo-4058219.jpeg?auto=compress&cs=tinysrgb&w=400"
+    id: 10,
+    name: "Proteína ENA Sport",
+    category: "proteina",
+    price: 14200,
+    description: "Proteína de alta calidad para aumentar masa muscular",
+    image: "/img/PROTEINA/ENASPORTPROTE.jpg"
     },
     {
-        id: 11,
-        name: "Caseína Micelar Night",
-        category: "proteina",
-        price: 11800,
-        description: "Proteína de absorción lenta ideal para tomar antes de dormir",
-        image: "https://images.pexels.com/photos/6550842/pexels-photo-6550842.jpeg?auto=compress&cs=tinysrgb&w=400"
+    id: 11,
+    name: "Proteína Pulver Vegana",
+    category: "proteina",
+    price: 11800,
+    description: "Proteína vegetal ideal para fuerza y recuperación",
+    image: "/img/PROTEINA/PULVERPROTE.jpg"
     },
     {
-        id: 12,
-        name: "Proteína Vegana Plant Power",
-        category: "proteina",
-        price: 10900,
-        description: "Blend de proteínas vegetales de guisante, arroz y hemp 100% natural",
-        image: "https://images.pexels.com/photos/4058218/pexels-photo-4058218.jpeg?auto=compress&cs=tinysrgb&w=400"
-    }
+    id: 12,
+    name: "Proteína Star Nutrition",
+    category: "proteina",
+    price: 10900,
+    description: "Proteína de suero para mejorar rendimiento y masa muscular",
+    image: "/img/PROTEINA/STARPROTE.jpg"
+}
 ];
 
 let cart = [];
